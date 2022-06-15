@@ -1,4 +1,4 @@
-using FriendlyUrlHelper;
+using Blob;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
