@@ -30,7 +30,7 @@ app.MapGet("v1/posts/{slug}", (string slug)
     => Results.Ok(posts.FirstOrDefault(x => x.Slug == slug)));
 
 app.MapGet("", ()
-    => "Hello world!");
+    => "Hello world v2!");
 
 app.Run();
 
